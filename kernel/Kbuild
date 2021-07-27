@@ -1,0 +1,12 @@
+obj-m = samplekm.o
+obj-m += samplekm_arrayparam.o
+obj-m += module_list.o
+obj-m += cb_readonly.o
+obj-m += cb_vmalloc.o
+obj-m += modulename_param.o
+obj-m += lsmod.o
+obj-m += lsmod1.o
+obj-m += blockingio.o
+obj-m += cdev.o
+obj-m += percpu.o
+obj-m += struct_cdev.o
